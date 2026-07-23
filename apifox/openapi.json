@@ -966,7 +966,8 @@
         },
         "security": [
           {
-            "Combination": []
+            "apikey": [],
+            "apiid": []
           }
         ]
       }
@@ -994,7 +995,8 @@
         },
         "security": [
           {
-            "Combination": []
+            "apikey": [],
+            "apiid": []
           }
         ]
       }
@@ -1248,17 +1250,6 @@
         "type": "apiKey",
         "in": "header",
         "name": "api-id"
-      },
-      "Combination": {
-        "group": [
-          {
-            "id": 345111
-          },
-          {
-            "id": 345112
-          }
-        ],
-        "type": "http"
       },
       "api_key": {
         "type": "apiKey",
